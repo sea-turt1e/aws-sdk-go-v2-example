@@ -7,10 +7,15 @@ cp .env.example .env
 ```
 
 ## Example Code
-- [getPromptFromPromptManagement.go](bedrock/getPromptFromPromptManagement/main.go)
+- [getPromptFromPromptManagement](bedrock/getPromptFromPromptManagement/main.go)
   - Get prompt from Amazon Bedrock Prompt Management Service
 
-- [postClaudeWithToolUse.go](bedrock/postClaudeWithToolUse/main.go)
+- [postClaudeWithToolUse](bedrock/postClaudeWithToolUse/main.go)
   - Get LLM Output of Claude with ToolUse From Amazon Bedrock.  
   - ToolUse is also called Function Calling.
 
+- [detectDocumentTextWithS3Object](textract/detectDocumentTextWithS3Object/main.go)
+  - Detect Document Text with S3 Object using Amazon Textract
+
+- [analyzeDocumentTextWithS3Object](textract/analyzeDocumentTextWithS3Object/main.go)
+  - Analyze Document Text with S3 Object using Amazon Textract
